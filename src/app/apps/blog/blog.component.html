@@ -7,17 +7,16 @@
     <div class="row justify-content-center">
       <!-- Column -->
       <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
-        <h1 class="title">DevKevs Portfolio</h1>
+        <h1 class="title">DevKevs's Portfolio</h1>
         <h5 class="subtitle op-5">
-          Want a blog app with ng-bootstrap ? Here is the fully workable blog
-          app in which we are giving add post, edit post and delete post.
+          Welcome to my professional portfolio! Explore the exciting world of my development journey, where code meets creativity. Dive into the projects, passion, and precision that drive my work. Let's embark on a digital adventure together!
         </h5>
 
         <a
-          href="https://www.wrappixel.com/free-wrapkit-angular-blog"
+          href="./assets/docs/resume.pdf"
           class="btn btn-md m-t-30 btn-success-gradiant font-14"
-          target="blank"
-          >Download Free</a
+          target="_blank"
+          >Download my resume</a
         >
       </div>
       <!-- Column -->
@@ -26,9 +25,29 @@
 </div>
 
 <!-- Row  -->
-<div class="container spacer">
-  <div class="row justify-content-center">
-    <!-- Column -->
+<div class="container">
+  <div class="row gx-5 mt-3" id="about-me">
+    <div class="col px-2 my-image">
+      <img src="../../../assets/images/users/me.jpeg" class="img-thumbnail" alt="me" style="width: 80%; border-radius: 15rem;">
+    </div>
+    <div class="col">
+      <h1>Discover who is <span style="color: #338EF4;">DevKevs</span></h1>
+      <p>Hey there! my name is Kevin Féliz</p>
+      <p>I'm an enthusiastic Web and Mobile Developer, on a journey to create amazing experiences in MEAN Stack and Flutter development. With a touch of expertise in .NET Framework, .NET Core, and a wide range of cutting-edge technologies, I'm determined to craft digital wonders that take user interaction to new heights.</p>
+      <p>🚀 Fueled by curiosity and a talent for solving problems, I focus on designing responsive applications that exceed your expectations. My commitment to staying updated with the latest tech trends means I'm always in tune with the ever-evolving world of technology.</p>
+      <a
+        class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
+        data-toggle="collapse"
+        routerLink="/about"
+      >
+        <span
+          >Browse my projects
+          <i class="ti-arrow-right"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="row justify-content-center">
     <div class="col-md-8 no-trans text-center">
       <h2 class="title">Recent Blogs</h2>
       <h6 class="subtitle">
@@ -36,10 +55,8 @@
         services will be great experience for you without doubt and in no-time
       </h6>
     </div>
-    <!-- Column -->
   </div>
   <div class="row m-t-40 justify-content-center">
-    <!-- Column -->
     <div
       class="col-md-8 no-trans border-bottom mb-4"
       *ngFor="let bl of service.Blogs"
@@ -69,5 +86,19 @@
         </div>
       </div>
     </div>
+  </div> -->
+</div>
+
+<div class="bg-light spacer feature1 mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center no-trans">
+        <h2 class="title">My top 3 hobbies</h2>
+        <h6 class="subtitle">
+          I enjoy gaming, exploring new worlds, and challenging myself. Watching anime is a favorite pastime, and music is my constant companion.
+        </h6>
+      </div>
+    </div>
+    <app-hobbies></app-hobbies>
   </div>
 </div>

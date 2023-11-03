@@ -1,0 +1,30 @@
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+  #about-me{
+   flex-direction: column;
+   width: 100%;
+  }
+  #about-me p{
+    text-align: justify;
+  }
+  #about-me .my-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Reglas de estilo específicas para pantallas medianas */
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Reglas de estilo específicas para pantallas grandes */
+}
+
+/* Estilos para pantallas extra grandes */
+@media (min-width: 993px) {
+  /* Reglas de estilo específicas para pantallas extra grandes */
+}
