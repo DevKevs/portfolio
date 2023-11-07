@@ -11,7 +11,6 @@ import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
-import { ServiceblogService } from './blog/blog-service.service';
 import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
 import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
 
@@ -45,6 +44,5 @@ import { HobbiesComponent } from './blog/hobbies/hobbies.component';
     ReactiveFormsModule,
     HttpClientModule,
   ],
-  providers: [ServiceblogService],
 })
 export class AppsModule {}
