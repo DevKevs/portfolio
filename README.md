@@ -1,40 +1,44 @@
-# Mi Portafolio Profesional
+# My Professional Portfolio
 
-¡Bienvenido a mi portafolio profesional! Este proyecto fue desarrollado utilizando Angular para destacar mis habilidades, proyectos y experiencia profesional.
+Welcome to my professional portfolio! This project was developed using Angular to showcase my skills, projects, and professional experience.
 
-## Contenido
+## Quick Start
 
-1. **Inicio Rápido**
-    - Clona este repositorio: `git clone [URL del repositorio]`
-    - Instala las dependencias: `npm install`
-    - Inicia el servidor de desarrollo: `ng serve`
-    - Visita `http://localhost:4200/` en tu navegador.
+- Clone this repository: `git clone [repository URL]`
+- Install dependencies: `npm install`
+- Start the development server: `ng serve`
+- Visit `http://localhost:4200/` in your browser.
 
-2. **Estructura del Proyecto**
-    - `/src`: Contiene el código fuente de la aplicación Angular.
-    - `/src/app`: Componentes, servicios y otros elementos de la aplicación.
-    - `/src/assets`: Recursos estáticos como imágenes y archivos CSS.
+## Project Structure
 
-3. **Características Principales**
-    - **Portafolio:** Muestra una selección de mis proyectos con descripciones detalladas.
-    - **Sobre Mí:** Proporciona información sobre mi background, habilidades y experiencia.
-    - **Contacto:** Ofrece diferentes formas de contacto para colaboraciones o consultas.
+- `/src`: Contains the source code of the Angular application.
+- `/src/app`: Components, services, and other application elements.
+- `/src/assets`: Static resources such as images and CSS files.
 
-4. **Herramientas y Tecnologías Utilizadas**
-    - Angular
-    - TypeScript
-    - HTML5 y CSS3
+## Key Features
 
-5. **Cómo Contribuir**
-    - Si encuentras algún problema o tienes sugerencias, por favor, abre un problema o envía un pull request.
+- **Portfolio:** Displays a selection of my projects with detailed descriptions.
+- **About Me:** Provides information about my background, skills, and experience.
+- **Contact:** Offers various ways to get in touch for collaborations or inquiries.
 
-6. **Contacto**
-    - Kevin Feliz Encarnacion
-    - kevinfeliz2016@gmail.com
-    - [LinkedIn](https://www.linkedin.com/in/kevin-féliz-encarnación-a20888200/)
+## Tools and Technologies Used
 
-¡Gracias por visitar mi portafolio! Espero que encuentres la información que estás buscando y que disfrutes explorando mis proyectos.
+- Angular
+- TypeScript
+- HTML5 and CSS3
+
+## How to Contribute
+
+If you encounter any issues or have suggestions, please open an issue or submit a pull request.
+
+## Contact
+
+- Kevin Feliz Encarnacion
+- kevinfeliz2016@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/kevin-féliz-encarnación-a20888200/)
+
+Thank you for visiting my portfolio! I hope you find the information you are looking for and enjoy exploring my projects.
 
 ---
 
-**Nota:** Recuerda personalizar la información según tus datos específicos y añadir secciones adicionales si es necesario.
+**Note:** Remember to customize the information with your specific details and add additional sections if necessary.
