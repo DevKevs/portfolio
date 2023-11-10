@@ -19,8 +19,7 @@ import { FullComponent } from './layout/full/full.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { HobbiesComponent } from './blog/hobbies/hobbies.component';
-
+import { ProjectsPreviewComponent } from './blog/projects-preview/projects-preview.component';
 @NgModule({
   declarations: [
     AppsComponent,
@@ -34,7 +33,7 @@ import { HobbiesComponent } from './blog/hobbies/hobbies.component';
     // BannerContentComponent,
     BannerNavigationComponent,
     FooterComponent,
-    HobbiesComponent,
+    ProjectsPreviewComponent
   ],
   imports: [
     CommonModule,

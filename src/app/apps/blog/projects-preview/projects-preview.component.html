@@ -1,0 +1,23 @@
+<div class="row m-t-40">
+  <!-- Column -->
+  <div class="col-md-4 wrap-feature1-box" *ngFor='let relay of relayOn'>
+      <div class="card card-shadow" style="min-height: 30rem;" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-10 text-center">
+              <div class="display-5">
+                  <img [src]="relay.image" alt="" style="width: 100%; height: auto; margin-bottom: 1rem; border-radius: 0.6rem;">
+              </div>
+              <h5 class="font-medium">{{relay.field}}</h5>
+              <p class="m-t-20">
+                  {{relay.fieldText}}
+              </p>
+              <a class="btn btn-success-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" [href]="relay.link" target="_blank"><span>View repo
+                <i class="ti-arrow-right"></i></span></a>
+          </div>
+      </div>
+  </div>
+  <div style="display: flex; justify-content: end; width: 100%;">
+    <a class="btn-md btn-arrow m-t-20" data-toggle="collapse" routerLink="/projects" target="_blank"><span>Browse all
+      <i class="ti-arrow-right"></i></span></a>
+  </div>
+</div>
+
