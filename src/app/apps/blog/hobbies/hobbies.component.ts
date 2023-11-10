@@ -1,12 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-relay-on',
-  templateUrl: './relay-on.component.html',
-  styleUrls: ['./relay-on.component.css']
+  selector: 'app-hobbies',
+  templateUrl: './hobbies.component.html',
+  styleUrls: ['./hobbies.component.css']
 })
-export class RelayOnComponent implements OnInit {
-
+export class HobbiesComponent {
   relayOn = [
     {
       icon: 'sl-icon-mouse text-info-gradiant',
@@ -24,10 +23,4 @@ export class RelayOnComponent implements OnInit {
       fieldText: 'Music is the soundtrack of my life, setting the tone for every emotion and moment. Love all Latin music.'
     }
   ];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

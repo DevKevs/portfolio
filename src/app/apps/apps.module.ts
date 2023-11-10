@@ -11,7 +11,6 @@ import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
-import { ServiceblogService } from './blog/blog-service.service';
 import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
 import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
 
@@ -20,7 +19,7 @@ import { FullComponent } from './layout/full/full.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
-
+import { ProjectsPreviewComponent } from './blog/projects-preview/projects-preview.component';
 @NgModule({
   declarations: [
     AppsComponent,
@@ -34,6 +33,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     // BannerContentComponent,
     BannerNavigationComponent,
     FooterComponent,
+    ProjectsPreviewComponent
   ],
   imports: [
     CommonModule,
@@ -43,6 +43,5 @@ import { FooterComponent } from './shared/footer/footer.component';
     ReactiveFormsModule,
     HttpClientModule,
   ],
-  providers: [ServiceblogService],
 })
 export class AppsModule {}

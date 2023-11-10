@@ -15,8 +15,10 @@ const routes: Routes = [
     component: FullComponent,
     children: [
       { path: '', component: BlogComponent },
-      { path: 'blogDetail/:id', component: BlogDetailComponent },
+      { path: 'projects', component: AboutComponent },
+      // { path: 'blogDetail/:id', component: BlogDetailComponent },
       { path: 'about', component: AboutComponent },
+      { path: 'contact', component: AboutComponent },
     ]
   }
 ];
