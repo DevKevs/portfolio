@@ -7,6 +7,7 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 
 import { FullComponent } from './layout/full/full.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,7 @@ const routes: Routes = [
     component: FullComponent,
     children: [
       { path: '', component: BlogComponent },
-      { path: 'projects', component: AboutComponent },
+      { path: 'projects', component: ProjectsComponent },
       // { path: 'blogDetail/:id', component: BlogDetailComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: AboutComponent },
