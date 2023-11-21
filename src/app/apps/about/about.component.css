@@ -1,3 +1,24 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaciado entre los iconos */
+  justify-content: center;
+}
+
+.icon{
+  width: 5rem;
+  height: auto;
+  color: #338EF4 !important;
+}
+
+
 /* Estilos para pantallas pequeñas */
 @media (max-width: 576px) {
   #about-me{
