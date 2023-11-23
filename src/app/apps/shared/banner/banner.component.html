@@ -7,18 +7,47 @@
                     <img src="../../../../assets/images/logos/logo2-white.png" alt="DevKevs" style="width: 10rem;" />
                 </a>
 
+                <app-banner-navigation class="ml-auto"></app-banner-navigation>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info"
+                <button (click)="toggle()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info"
                     aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="ti-menu"></span>
                 </button>
-
-
-                <app-banner-navigation class="ml-auto"></app-banner-navigation>
-
+                <!-- menu-mobile-items -->
+                <ul *ngIf="display" class="navbar-nav ml-auto w-100 align-items-center">
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" routerLink="/home">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" routerLink="/projects">
+                      Projects
+                    </a>
+                  </li>
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" routerLink="/about">
+                      About
+                    </a>
+                  </li>
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" routerLink="/contact">
+                      Contact
+                    </a>
+                  </li>
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" href="https://github.com/DevKevs" target="_blank">
+                      GitHub
+                    </a>
+                  </li>
+                  <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" href="https://www.linkedin.com/in/kevin-f%C3%A9liz-encarnaci%C3%B3n-a20888200/"
+                      target="_blank">
+                      LinkedIn
+                    </a>
+                  </li>
+                </ul>
             </nav>
         </div>
-
-
     </div>
 </div>

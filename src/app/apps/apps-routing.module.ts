@@ -15,9 +15,9 @@ const routes: Routes = [
     path: '',
     component: FullComponent,
     children: [
-      { path: '', component: BlogComponent },
+      { path: '', redirectTo: 'home' },
+      { path: 'home', component: BlogComponent },
       { path: 'projects', component: ProjectsComponent },
-      // { path: 'blogDetail/:id', component: BlogDetailComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: AboutComponent },
     ]
