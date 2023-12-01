@@ -22,6 +22,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ProjectsPreviewComponent } from './blog/projects-preview/projects-preview.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsRelayOnComponent } from './projects/projects-relay-on/projects-relay-on.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppsComponent,
@@ -37,7 +38,8 @@ import { ProjectsRelayOnComponent } from './projects/projects-relay-on/projects-
     FooterComponent,
     ProjectsPreviewComponent,
     ProjectsComponent,
-    ProjectsRelayOnComponent
+    ProjectsRelayOnComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
