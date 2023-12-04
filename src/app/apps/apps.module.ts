@@ -20,6 +20,9 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ProjectsPreviewComponent } from './blog/projects-preview/projects-preview.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsRelayOnComponent } from './projects/projects-relay-on/projects-relay-on.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppsComponent,
@@ -33,7 +36,10 @@ import { ProjectsPreviewComponent } from './blog/projects-preview/projects-previ
     // BannerContentComponent,
     BannerNavigationComponent,
     FooterComponent,
-    ProjectsPreviewComponent
+    ProjectsPreviewComponent,
+    ProjectsComponent,
+    ProjectsRelayOnComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

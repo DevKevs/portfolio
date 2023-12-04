@@ -1,0 +1,47 @@
+<div
+  class="banner-innerpage"
+  style="background-image: url(assets/images/landingpage/about.jpg)"
+>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 no-trans align-self-center text-center">
+        <h1 class="title"> GET IN TOUCH </h1>
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================== -->
+<!-- Feature 1  -->
+<!-- ============================================================== -->
+<div class="bg-light spacer feature1">
+    <div class="container">
+      <form [formGroup]="contactForm" (submit)="newEmail()">
+        <div class="mb-3">
+          <label class="form-label">Email address</label>
+          <input type="email" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" formControlName="name" class="form-control" id="exampleFormControlInput1" placeholder="Ex. John Doe">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" formControlName="phone" class="form-control" id="exampleFormControlInput1" placeholder="Ex. (000) 000 000">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" formControlName="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn btn-info-gradiant btn-md m-t-20" [disabled]="btnDisable" type="submit">{{btnText}}</button>
+      </form>
+    </div>
+  </div>
+<!-- ============================================================== -->
+<!-- End Feature 1  -->
+<!-- ============================================================== -->
+
+

@@ -7,6 +7,8 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 
 import { FullComponent } from './layout/full/full.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -14,11 +16,11 @@ const routes: Routes = [
     path: '',
     component: FullComponent,
     children: [
-      { path: '', component: BlogComponent },
-      { path: 'projects', component: AboutComponent },
-      // { path: 'blogDetail/:id', component: BlogDetailComponent },
+      { path: '', redirectTo: 'home' },
+      { path: 'home', component: BlogComponent },
+      { path: 'projects', component: ProjectsComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'contact', component: AboutComponent },
+      { path: 'contact', component: ContactComponent },
     ]
   }
 ];

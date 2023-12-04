@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent implements OnInit {
-
+  display = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggle(){
+    this.display = !this.display;
   }
 
 }
