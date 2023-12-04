@@ -52,7 +52,7 @@ export class ProjectsRelayOnComponent {
     {
       image: '../../../../assets/images/svg/git.svg',
       field: 'Demo - Expense Tracker',
-      fieldText: 'Vue Expense Tracker app manage income and outcome transactions.',
+      fieldText: 'Vue Expense Tracker app for manage income and outcome transactions.',
       link: 'https://6566312f892ed2007979ecf7--ultimate-expense-tacker.netlify.app/'
     },
     {
