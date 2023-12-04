@@ -19,24 +19,24 @@
 <!-- ============================================================== -->
 <div class="bg-light spacer feature1">
     <div class="container">
-      <form action="">
+      <form [formGroup]="contactForm" (submit)="newEmail()">
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label class="form-label">Email address</label>
+          <input type="email" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex. John Doe">
+          <label class="form-label">Name</label>
+          <input type="text" formControlName="name" class="form-control" id="exampleFormControlInput1" placeholder="Ex. John Doe">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-          <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ex. (000) 000 000">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" formControlName="phone" class="form-control" id="exampleFormControlInput1" placeholder="Ex. (000) 000 000">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label class="form-label">Message</label>
+          <textarea class="form-control" formControlName="message" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button class="btn btn-info-gradiant btn-md m-t-20" [disabled]="btnDisable" (click)="newEmail()">{{btnText}}</button>
+        <button class="btn btn-info-gradiant btn-md m-t-20" [disabled]="btnDisable" type="submit">{{btnText}}</button>
       </form>
     </div>
   </div>
