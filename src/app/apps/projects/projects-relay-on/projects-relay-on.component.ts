@@ -9,9 +9,16 @@ export class ProjectsRelayOnComponent {
   relayOn = [
     {
       image: '../../../../assets/images/blog/do-validator.png',
-      field: 'do-validator package',
+      field: '[npm] do-validator',
       fieldText: 'Develop in TypeScript, do-validator is a package that offers a simple and efficient way to validate Dominican Republic ID numbers.',
       link: 'https://www.npmjs.com/package/do-validator',
+      btnText: 'View Package'
+    },
+    {
+      image: '../../../../assets/images/blog/do_validator.png',
+      field: '[Dart] do_validator',
+      fieldText: 'Develop in Dart, do_validator is a package that offers a simple and efficient way to validate Dominican Republic ID numbers.',
+      link: 'https://pub.dev/packages/do_validator',
       btnText: 'View Package'
     },
     {

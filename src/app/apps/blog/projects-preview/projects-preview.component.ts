@@ -16,7 +16,7 @@ export class ProjectsPreviewComponent {
     },
     {
       image: '../../../../assets/images/blog/do-validator.png',
-      field: 'do-validator package',
+      field: '[npm] do-validator',
       fieldText: 'Develop in TypeScript, do-validator is a package that offers a simple and efficient way to validate Dominican Republic ID numbers.',
       link: 'https://www.npmjs.com/package/do-validator',
       btnText: 'View Package'
